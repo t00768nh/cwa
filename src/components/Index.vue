@@ -3,58 +3,63 @@
   <main>
 
     <div class="ct1" id="about">
-      <img src="../assets/ct1.jpg" alt="Creatve writeing Academy " class="img-responsive center-block pc_display">
-      <img src="../assets/ct1-m.jpg" alt="書店イベント一覧" class="img-responsive center-block sp_display">
+      <img src="../assets/PC-1-Top-image.jpg" alt="top " class="img-responsive center-block pc_display">
+      <img src="../assets/SP-1-Top-image.jpg" alt="top" class="img-responsive center-block sp_display">
     </div>
 
     <div class="ct2">
-      <img src="../assets/ct2.jpg" alt="About Creatve writeing Academy " class="img-responsive center-block pc_display">
-      <img src="../assets/ct2-m.jpg" alt="書店イベント一覧" class="img-responsive center-block sp_display">
+      <img src="../assets/PC-2-About.jpg" alt="About Creatve writeing Academy " class="img-responsive center-block pc_display">
+      <img src="../assets/SP-2-About.jpg" alt="About" class="img-responsive center-block sp_display">
       <router-link to="/form" exact><btn class="btn">お申し込みはこちら</btn></router-link>
 
     </div>
 
     <div class="ct3">
-      <img src="../assets/ct3.jpg" alt="four features" class="img-responsive center-block pc_display">
-      <img src="../assets/ct3-m.jpg" alt="書店イベント一覧" class="img-responsive center-block sp_display">
+      <img src="../assets/PC-3-FourCourse.jpg" alt="course" class="img-responsive center-block pc_display">
+      <img src="../assets/SP-3-FourCourse.jpg" alt="course" class="img-responsive center-block sp_display">
     </div>
 
     <div class="ct4">
-      <img src="../assets/ct4.jpg" alt="four features" class="img-responsive center-block pc_display">
-      <img src="../assets/ct4-m.jpg" alt="書店イベント一覧" class="img-responsive center-block sp_display">
+      <img src="../assets/PC-4-BasicCourse.jpg" alt="course" class="img-responsive center-block pc_display">
+      <img src="../assets/SP-4-BasicCourse.jpg" alt="course" class="img-responsive center-block sp_display">
     </div>
 
     <div class="ct5" id="lecturer">
-      <img src="../assets/ct5.jpg" alt="four features" class="img-responsive center-block pc_display">
-      <img src="../assets/ct5-m.jpg" alt="書店イベント一覧" class="img-responsive center-block sp_display">
+      <img src="../assets/PC-5-LectureContents.jpg" alt="senior" class="img-responsive center-block pc_display">
+      <img src="../assets/SP-5-LectureContents.jpg" alt="senior" class="img-responsive center-block sp_display">
     </div>
 
-    <div class="ct5" id="">
-      <img src="../assets/0.jpg" alt="four features" class="img-responsive center-block pc_display">
-      <img src="../assets/0m.jpg" alt="書店イベント一覧" class="img-responsive center-block sp_display">
+    <div class="ct6" >
+      <img src="../assets/PC-6-SeniorLecturer.jpg" alt="senior" class="img-responsive center-block pc_display">
+      <img src="../assets/SP-6-SeniorLecturer.jpg" alt="senior" class="img-responsive center-block sp_display">
+    </div>
+
+    <div class="ct7" id="">
+      <img src="../assets/PC-7-Orientation.jpg" alt="orientation" class="img-responsive center-block pc_display">
+      <img src="../assets/SP-7-Orientation.jpg" alt="orientation" class="img-responsive center-block sp_display">
       <a href="https://form.run/@unknownbooks-cwa"><btn class="btn-2">お申し込みはこちら</btn></a>
     </div>
 
-    <div class="ct6" id="schedule">
-      <img src="../assets/ct6.jpg" alt="four features" class="img-responsive center-block pc_display">
-      <img src="../assets/ct6-m.jpg" alt="書店イベント一覧" class="img-responsive center-block sp_display">
-    </div>
-
-    <div class="ct7">
-      <img src="../assets/ct7.jpg" alt="four features" class="img-responsive center-block pc_display">
-      <img src="../assets/ct7-m.jpg" alt="書店イベント一覧" class="img-responsive center-block sp_display">
-    </div>
-
-    <div class="ct8">
-      <img src="../assets/ct8.jpg" alt="four features" class="img-responsive center-block pc_display">
-      <img src="../assets/ct8-m.jpg" alt="書店イベント一覧" class="img-responsive center-block sp_display">
-      <router-link to="/form" exact><btn class="btn-2">お申し込みはこちら</btn></router-link>
-
+    <div class="ct8" id="schedule">
+      <img src="../assets/PC-8-Schedule.jpg" alt="schedule" class="img-responsive center-block pc_display">
+      <img src="../assets/SP-8-Schedule.jpg" alt="schedule" class="img-responsive center-block sp_display">
     </div>
 
     <div class="ct9">
-      <img src="../assets/ct9.jpg" alt="four features" class="img-responsive center-block pc_display">
-      <img src="../assets/ct9-m.jpg" alt="書店イベント一覧" class="img-responsive center-block sp_display">
+      <img src="../assets/PC-9-Recommend.jpg" alt="recommend" class="img-responsive center-block pc_display">
+      <img src="../assets/SP-9-Recommend.jpg" alt="recommend" class="img-responsive center-block sp_display">
+    </div>
+
+    <div class="ct10">
+      <img src="../assets/PC-10-Entry.jpg" alt="rntry" class="img-responsive center-block pc_display">
+      <img src="../assets/SP-10-Entry.jpg" alt="entry" class="img-responsive center-block sp_display">
+      <router-link to="/form" exact><btn class="btn-3">お申し込みはこちら</btn></router-link>
+
+    </div>
+
+    <div class="ct11">
+      <img src="../assets/PC-11-unknownbooks.jpg" alt="unknownbooks" class="img-responsive center-block pc_display">
+      <img src="../assets/SP-11-unknownbooks.jpg" alt="unknownbooks" class="img-responsive center-block sp_display">
     </div>
 
   </main>
@@ -134,7 +139,7 @@ export default {
     display: inline-block;
     color: white;
     text-decoration: none;
-    margin: -120px auto 0 auto;
+    margin: -50px auto 0 auto;
     left: 30%;
     position: absolute;
     &:hover{
@@ -143,7 +148,26 @@ export default {
     }
     @include mq{
       padding: 10px 30px;
-      margin: -60px auto 0 auto;
+      margin: -20px auto 0 auto;
+    }
+  }
+  .btn-3{
+    background: #E3357F;
+    padding: 15px 130px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: -190px auto 0 auto;
+    left: 30%;
+    position: absolute;
+    &:hover{
+      opacity: 0.8;
+      transition: all .2s;
+    }
+    @include mq{
+      padding: 10px 30px;
+      margin: -70px auto 0 auto;
     }
   }
   .ct3 {
@@ -160,13 +184,19 @@ export default {
     padding: 2%;
   }
   .ct7 {
-    padding: 2%;
+    padding: 10% 2% 2% 2%;
   }
   .ct8 {
     padding: 2%;
   }
   .ct9 {
     padding: 0 2% 0 2%;
+  }
+  .ct10 {
+    padding: 2%;
+  }
+  .ct11 {
+    padding: 2%;
   }
 
   @media only screen and (min-width: 768px) {

@@ -43,9 +43,9 @@ export default {
       display: flex;
     }
     &-logo{
-      width: 120px;
+      width: 80px;
       height: auto;
-      flex: 0 0 120px;
+      flex: 0 0 80px;
       padding: 0 5%;
 
     }
